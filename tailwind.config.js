@@ -15,6 +15,11 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        primary: {
+          DEFAULT: '#9437F0',
+        },
+      },
     },
   },
   plugins: [require('@tailwindcss/typography')],
