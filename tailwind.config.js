@@ -16,6 +16,8 @@ module.exports = {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        customgray: '#071340',
+        'customgray-light': '#616B8F',
         primary: {
           DEFAULT: '#9437F0',
         },
