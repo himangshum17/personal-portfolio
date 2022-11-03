@@ -13,7 +13,7 @@ const Header = () => {
     setIsMenuOpen(prev => !prev);
   };
   return (
-    <header className='py-6'>
+    <header className='pt-6'>
       <div className='container flex items-center flex-wrap'>
         <div className='flex flex-col'>
           <span className='text-sm'>Himangshu</span>{' '}
