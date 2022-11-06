@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+* {
+  vertical-align: middle;
+}
 @layer base {
   html {
     font-family: Montserrat, system-ui, sans-serif;

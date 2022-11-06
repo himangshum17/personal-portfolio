@@ -20,6 +20,7 @@ module.exports = {
         'customgray-light': '#616B8F',
         primary: {
           DEFAULT: '#9437F0',
+          light: '#E1C7FB',
         },
       },
     },

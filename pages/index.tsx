@@ -1,10 +1,11 @@
 import type { NextPage } from 'next';
-import { Hero, PageContainer } from '../layouts';
+import { Hero, PageContainer, Projects } from '../layouts';
 
 const Home: NextPage = () => {
   return (
     <PageContainer>
       <Hero />
+      <Projects />
     </PageContainer>
   );
 };
