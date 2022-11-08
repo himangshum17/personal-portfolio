@@ -5,32 +5,32 @@ const Hero = () => {
   return (
     <section className='py-20'>
       <div className='container'>
-        <h1 className='text-[80px] leading-tight -tracking-wider pr-40 text-customgray'>
-          I build{' '}
-          <strong className='font-black relative'>
-            applications
-            <div className='absolute left-0 bg-green-200 h-6 -z-10 w-full bottom-2' />
-          </strong>{' '}
-          that are{' '}
-          <strong className='font-black relative'>
-            user-friendly
-            <div className='absolute left-0 bg-blue-200 h-6 -z-10 w-full bottom-2' />
-          </strong>
-          ,{' '}
-          <strong className='font-black relative'>
-            simple
-            <div className='absolute left-0 bg-pink-200 h-6 -z-10 w-full bottom-2' />
-          </strong>{' '}
-          and{' '}
-          <strong className='font-black relative'>
-            easy to use
-            <div className='absolute left-0 bg-yellow-200 h-6 -z-10 w-full bottom-2' />
-          </strong>
-          .
-        </h1>
-        <div className='grid grid-cols-2 gap-10'>
-          <div className='mt-16'>
-            <p className='font-medium text-xl leading-relaxed text-customgray-light'>
+        <div className='grid gap-10 grid-cols-12'>
+          <div className='col-span-7'>
+            <h1 className='text-[56px] leading-tight -tracking-wider text-customgray'>
+              I build{' '}
+              <strong className='font-black relative'>
+                applications
+                <div className='absolute left-0 bg-green-200 h-3 -z-10 w-full bottom-2' />
+              </strong>{' '}
+              that are{' '}
+              <strong className='font-black relative'>
+                user-friendly
+                <div className='absolute left-0 bg-blue-200 h-3 -z-10 w-full bottom-2' />
+              </strong>
+              ,{' '}
+              <strong className='font-black relative'>
+                simple
+                <div className='absolute left-0 bg-pink-200 h-3 -z-10 w-full bottom-2' />
+              </strong>{' '}
+              and{' '}
+              <strong className='font-black relative'>
+                easy to use
+                <div className='absolute left-0 bg-yellow-200 h-3 -z-10 w-full bottom-2' />
+              </strong>
+              .
+            </h1>
+            <p className='font-medium text-xl leading-relaxed text-customgray-light mt-8'>
               I specialize in frontend technologies, and has been working in the
               industry for the past 6+ years. Currently working as Frontend
               Developer at{' '}
@@ -47,11 +47,11 @@ const Hero = () => {
               <Button variant='outline'>view my github</Button>
             </div>
           </div>
-          <div className='-mt-12'>
+          <div className='-mt-12 col-span-5'>
             <Image
               src='/assets/images/hero-image.png'
-              width='640'
-              height='420'
+              width='545'
+              height='720'
               objectFit='contain'
               alt=''
             />
