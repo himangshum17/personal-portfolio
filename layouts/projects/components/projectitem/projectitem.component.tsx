@@ -4,7 +4,7 @@ import { Button } from '../../../../components';
 
 const ProjectItem = () => {
   return (
-    <div className='grid grid-cols-2 gap-10'>
+    <div className='grid grid-cols-1 xl:grid-cols-2 gap-10'>
       <div>
         <Image
           src='/assets/images/project-img-placeholder.png'
@@ -13,7 +13,7 @@ const ProjectItem = () => {
           height='540'
         />
       </div>
-      <div className='px-24 pt-10'>
+      <div className='px-8 xl:px-24 pt-10'>
         <div className='flex w-12 h-12 items-center justify-center bg-primary-light text-primary rounded-full'>
           <ArrowUpRightIcon className='h-6 w-6' />
         </div>
