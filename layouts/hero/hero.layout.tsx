@@ -5,28 +5,28 @@ const Hero = () => {
   return (
     <section className='py-20'>
       <div className='container'>
-        <div className='grid gap-10 grid-cols-12'>
-          <div className='col-span-7'>
-            <h1 className='text-[56px] leading-tight -tracking-wider text-customgray'>
+        <div className='grid gap-10 grid-cols-1 xl:grid-cols-12'>
+          <div className='col-span-1 xl:col-span-7'>
+            <h1 className='text-4xl md:text-[56px] leading-tight -tracking-wider text-customgray'>
               I build{' '}
               <strong className='font-black relative'>
                 applications
-                <div className='absolute left-0 bg-green-200 h-3 -z-10 w-full bottom-2' />
+                <div className='absolute left-0 bg-green-200 h-2 xl:h-3 -z-10 w-full bottom-2' />
               </strong>{' '}
               that are{' '}
               <strong className='font-black relative'>
                 user-friendly
-                <div className='absolute left-0 bg-blue-200 h-3 -z-10 w-full bottom-2' />
+                <div className='absolute left-0 bg-blue-200 h-2 xl:h-3 -z-10 w-full bottom-2' />
               </strong>
               ,{' '}
               <strong className='font-black relative'>
                 simple
-                <div className='absolute left-0 bg-pink-200 h-3 -z-10 w-full bottom-2' />
+                <div className='absolute left-0 bg-pink-200 h-2 xl:h-3 -z-10 w-full bottom-2' />
               </strong>{' '}
               and{' '}
               <strong className='font-black relative'>
                 easy to use
-                <div className='absolute left-0 bg-yellow-200 h-3 -z-10 w-full bottom-2' />
+                <div className='absolute left-0 bg-yellow-200 h-2 xl:h-3 -z-10 w-full bottom-2' />
               </strong>
               .
             </h1>
@@ -47,7 +47,7 @@ const Hero = () => {
               <Button variant='outline'>view my github</Button>
             </div>
           </div>
-          <div className='-mt-12 col-span-5'>
+          <div className='xl:-mt-12 col-span-1 xl:col-span-5 flex justify-center'>
             <Image
               src='/assets/images/hero-image.png'
               width='545'
