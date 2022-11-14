@@ -7,8 +7,10 @@ import {
   Bars3BottomLeftIcon,
   XCircleIcon,
 } from '@heroicons/react/24/outline';
+import { useTheme } from 'next-themes';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  const { theme, setTheme } = useTheme();
   const menuToggleHandler = () => {
     setIsMenuOpen(prev => !prev);
   };
@@ -69,6 +71,7 @@ const Header = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <button
+                            onClick={() => setTheme('dark')}
                             className={`${
                               active ? 'bg-primary text-white' : 'text-gray-900'
                             } group flex w-full items-center rounded-md px-2 py-2 text-sm font-semibold`}>
