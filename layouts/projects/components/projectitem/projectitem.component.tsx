@@ -20,10 +20,10 @@ const ProjectItem = () => {
         <h3 className='text-3xl font-semibold -tracking-wide mt-3'>
           Title of the project
         </h3>
-        <h4 className='text-base font-semibold -tracking-wide'>
+        <h4 className='text-base -tracking-wide'>
           Technology used: React, Tailwind css,
         </h4>
-        <p className='py-8 text-base font-semibold -tracking-wide'>
+        <p className='py-8 text-base -tracking-wide'>
           Put a bird on it taxidermy glossier, leggings typewriter Brooklyn
           tilde shabby chic helvetica. Literally affogato selfies offal tousled
           brunch freegan kale chips skateboard four loko mumblecore mukbang
