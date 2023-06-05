@@ -33,16 +33,12 @@ const Header = () => {
             isMenuOpen && '!block'
           } ml-auto hidden w-full lg:w-auto mt-4 lg:block lg:mt-0`}>
           <ul className='flex flex-col lg:flex-row lg:items-center gap-1 lg:gap-8'>
-            <li>
+            {/* TODO: Create about page */}
+            {/* <li>
               <Link href='#'>
                 <a className='font-semibold text-sm'>About</a>
               </Link>
-            </li>
-            <li>
-              <Link href='#'>
-                <a className='font-semibold text-sm'>Contact</a>
-              </Link>
-            </li>
+            </li> */}
             <li>
               <Menu as='div' className='relative inline-block text-left'>
                 <Menu.Button className='align-middle flex items-center space-x-2'>
