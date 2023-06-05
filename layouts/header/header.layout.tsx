@@ -40,11 +40,6 @@ const Header = () => {
             </li>
             <li>
               <Link href='#'>
-                <a className='font-semibold text-sm'>Projects</a>
-              </Link>
-            </li>
-            <li>
-              <Link href='#'>
                 <a className='font-semibold text-sm'>Contact</a>
               </Link>
             </li>
