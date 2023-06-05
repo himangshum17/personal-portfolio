@@ -14,15 +14,7 @@ const Hero = () => {
               </h1>
               <p>
                 I specialize in frontend technologies, and has been working in
-                the industry for the past 6+ years. Currently working as
-                Frontend Developer at{' '}
-                <a
-                  href='https://swadeshsoftwares.com/'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                  className='underline text-primary'>
-                  Swadesh Softwares .
-                </a>
+                the industry for the past 7+ years.
               </p>
             </div>
             <div className='flex gap-4 mt-14'>
