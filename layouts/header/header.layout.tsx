@@ -63,7 +63,7 @@ const Header = () => {
                           <button
                             onClick={() => setTheme('dark')}
                             className={`${
-                              active && 'bg-primary'
+                              active && 'bg-primary text-white'
                             } group flex w-full items-center rounded-md px-2 py-2 text-sm font-semibold`}>
                             {active ? (
                               <MoonIcon className='mr-2 h-5 w-5' />
@@ -79,7 +79,7 @@ const Header = () => {
                           <button
                             onClick={() => setTheme('light')}
                             className={`${
-                              active && 'bg-primary'
+                              active && 'bg-primary text-white'
                             } group flex w-full items-center rounded-md px-2 py-2 text-sm font-semibold`}>
                             {active ? (
                               <SunIcon className='mr-2 h-5 w-5' />
