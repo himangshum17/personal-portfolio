@@ -1,10 +1,11 @@
 import Projectitem from '../projectitem';
+import { projectsData } from '../../../../data/projectsData';
 
 const ProjectsLists = () => {
   return (
     <div className='mt-20 space-y-16'>
-      {[1, 2, 3, 4].map((_, index) => {
-        return <Projectitem key={index} />;
+      {projectsData.map(item => {
+        return <Projectitem key={item.id} {...item} />;
       })}
     </div>
   );

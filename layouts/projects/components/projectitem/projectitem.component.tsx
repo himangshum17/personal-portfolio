@@ -2,33 +2,41 @@ import { ArrowUpRightIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import { Button } from '../../../../components';
 
-const ProjectItem = () => {
+type ProjectItemProps = {
+  projectImg: string;
+  title: string;
+  description: string;
+  tech: string;
+  link?: string;
+  role: string;
+};
+
+const ProjectItem = ({
+  projectImg,
+  title,
+  description,
+  tech,
+  link,
+  role,
+}: ProjectItemProps) => {
   return (
     <div className='grid grid-cols-1 xl:grid-cols-2 gap-10'>
       <div>
-        <Image
-          src='/assets/images/project-img-placeholder.png'
-          alt=''
-          width='690'
-          height='540'
-        />
+        <Image src={projectImg} alt='' width='690' height='540' />
       </div>
       <div className='px-8 xl:px-24 pt-10'>
         <div className='flex w-12 h-12 items-center justify-center bg-primary-light text-primary rounded-full'>
           <ArrowUpRightIcon className='h-6 w-6' />
         </div>
-        <h3 className='text-3xl font-semibold -tracking-wide mt-3'>
-          Title of the project
-        </h3>
-        <h4 className='text-base -tracking-wide'>
-          Technology used: React, Tailwind css,
-        </h4>
-        <p className='py-8 text-base -tracking-wide'>
-          Put a bird on it taxidermy glossier, leggings typewriter Brooklyn
-          tilde shabby chic helvetica. Literally affogato selfies offal tousled
-          brunch freegan kale chips skateboard four loko mumblecore mukbang
-        </p>
-        <Button variant='solid'>view details</Button>
+        <h3 className='text-3xl font-semibold -tracking-wide mt-3'>{title}</h3>
+        <h4 className='text-base -tracking-wide'>Technology used: {tech}</h4>
+        <h5 className='text-base -tracking-wide'>Role: {role}</h5>
+        <p className='py-8 text-base -tracking-wide'>{description}</p>
+        {!!link ? (
+          <Button variant='solid' href={link} target>
+            live url
+          </Button>
+        ) : null}
       </div>
     </div>
   );
