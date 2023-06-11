@@ -18,8 +18,15 @@ const Hero = () => {
               </p>
             </div>
             <div className='flex gap-4 mt-14'>
-              <Button variant='solid'>view my work</Button>
-              <Button variant='outline'>view my github</Button>
+              <Button variant='solid' href='#projects'>
+                view my work
+              </Button>
+              <Button
+                variant='outline'
+                href='https://github.com/himangshum17'
+                target>
+                view my github
+              </Button>
             </div>
           </div>
           <div className='xl:-mt-12 col-span-1 xl:col-span-5 flex justify-center'>
