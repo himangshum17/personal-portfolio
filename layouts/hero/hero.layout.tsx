@@ -14,7 +14,7 @@ const Hero = () => {
               </h1>
               <p>
                 I specialize in frontend technologies, and has been working in
-                the industry for the past 7+ years.
+                the industry for the past 8+ years.
               </p>
             </div>
             <div className='flex gap-4 mt-14'>
